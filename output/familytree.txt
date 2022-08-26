@@ -1,0 +1,89 @@
+
+ not takingThird-- as 2 siblings can't have same name
+ not takingThird-///// as age can't be -ve or zero
+ not takingSecond++ as 2 siblings can't have same name
+At Level 0 Some Family Tree
+ Childs  = First--  
+
+At Level 1 First--
+ Childs  = Second+ Second++ 
+
+At Level 2 Second+
+ Childs  = 
+
+At Level 2 Second++
+ Childs  = Third+/// Third+//  Third+//// 
+
+At Level 3 Third+///
+ Childs  = 
+
+At Level 3 Third+/
+ Childs  = 
+
+At Level 3 Third+//
+ Childs  = 
+
+At Level 3 Third+////
+ Childs  = 
+
+At Level 1 First-
+ Childs  = Second- Second-- 
+
+At Level 2 Second-
+ Childs  = Third- Third-- Third--- 
+
+At Level 3 Third-
+ Childs  = 
+
+At Level 3 Third--
+ Childs  = 
+
+At Level 3 Third---
+ Childs  = 
+
+At Level 2 Second--
+ Childs  = Third-/ Third-// Third-/// Third-//// 
+
+At Level 3 Third-/
+ Childs  = 
+
+At Level 3 Third-//
+ Childs  = 
+
+At Level 3 Third-///
+ Childs  = 
+
+At Level 3 Third-////
+ Childs  = 
+
+ ============================
+ b)The various family lines are as follows:
+
+==============
+c) Print all family members and their age
+[(48, 'First--'), (69, 'Second+'), (29, 'Second++'), (94, 'Third+///'), (56, 'Third+/'), (36, 'Third+//'), (74, 'Third+////'), (43, 'First-'), (55, 'Second-'), (63, 'Third-'), (28, 'Third--'), (69, 'Third---'), (62, 'Second--'), (56, 'Third-/'), (36, 'Third-//'), (68, 'Third-///'), (74, 'Third-////')]
+=======
+d) Order age of family members in ascending order
+[(28, 'Third--'), (29, 'Second++'), (36, 'Third+//'), (36, 'Third-//'), (43, 'First-'), (48, 'First--'), (55, 'Second-'), (56, 'Third+/'), (56, 'Third-/'), (62, 'Second--'), (63, 'Third-'), (68, 'Third-///'), (69, 'Second+'), (69, 'Third---'), (74, 'Third+////'), (74, 'Third-////'), (94, 'Third+///')]
+ ============================
+ e) The range of period this lineage was active - ie., first ancestor birth year to the death year last member:
+ from  1243 to 1352total = 109
+=======
+ f)Mean age for this lineage= 53.333333333333336
+ ============================
+ g) Find the median age for this lineage=59.0
+ ============================
+h) Group and print middle 50% of members (name and age) of this lineage using IQR (Interquartile Range) 
+ iqr=22.25
+ middle elemnts are:
+(48, 'First--')
+(55, 'Second-')
+(56, 'Third+/')
+(56, 'Third-/')
+(62, 'Second--')
+(63, 'Third-')
+(68, 'Third-///')
+ ============================
+ i) Who lived longest (name and age) in this lineage?  Who died the younges
+shortest lived with age = ('Third--', 28)
+Longest Lived with age = ('Third+////', 74)

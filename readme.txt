@@ -1,0 +1,3 @@
+1) The lineage Generator file is used to create json file for the BTree. Help for same is given, which provide info regarding comand line arguments to be given
+2)analyseLineage.py is the file whih uses multi-threading to access all files in a directory and perform the rewuired operation and save the result in a file of same name in output directory.
+3) FOr 2), user input is taken for both directories
